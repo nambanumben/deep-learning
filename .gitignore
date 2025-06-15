@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.pot
+*.mo
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Poetry
+poetry.lock
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+
+# Data/Models
+*.h5
+*.pkl
+*.ckpt
+*.pth
+*.pt
+*.npz
+*.npy
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.db
+*.sqlite3
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+flagged/
+
+# Presentations/Static
+src/presentations/**/static/
+
+# Templates (if generated)
+src/presentations/**/templates/
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Ignore dataset folders (optional, comment out if you want to keep them tracked)
+src/presentations/008-emmotion-classifier/dataset/

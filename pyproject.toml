@@ -1,0 +1,33 @@
+[tool.poetry]
+package-mode = false
+name = "deep_learning"
+version = "0.1.0"
+description = "TensorFlow project with Jupyter notebook support"
+authors = ["Norbel Ambanumben <norbel@ambanumben.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tensorflow = "^2.15.0"
+numpy = "^1.26.0"
+pandas = "^2.2.0"
+jupyterlab = "^4.0.0"
+matplotlib = ">=3.2.0"
+scikit-learn = "^1.4.0"
+flask = "^3.0.0"
+seaborn = "^0.11.2"
+gtts = "*"
+transformers = "*"
+ipywidgets = "*"
+PyPDF2 = "*"
+python-docx = "*"
+torch = "*"
+librosa = "*"
+sounddevice = "*"
+# Note: Tkinter (tk) is required for GUI support, but must be installed via your system package manager (e.g., sudo apt-get install python3-tk)
+tk = "*"  # For documentation purposes only; install with your OS package manager
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

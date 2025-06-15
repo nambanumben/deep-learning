@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": ".venv/bin/python",
+  "jupyter.notebookFileRoot": "${workspaceFolder}/src",
+  "jupyter.jupyterServerType": "local",
+  "terminal.integrated.env.linux": {
+    "PYTHONPATH": "${workspaceFolder}/src"
+  },
+  "jupyter.interactiveWindow.creationMode": "perFile"
+}
