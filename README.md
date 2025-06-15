@@ -26,6 +26,36 @@ This project is a starting point for deep learning experiments and development. 
    ```
 5. Open any notebook in the `src/` or `src/presentations/` folders to get started.
 
+## Poetry Dependency Installation
+
+To install all dependencies for this project using [Poetry](https://python-poetry.org/), follow these steps:
+
+1. **Install Poetry** (if you don't have it):
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   # or, with pipx
+   pipx install poetry
+   ```
+   For more details, see the [Poetry installation docs](https://python-poetry.org/docs/#installation).
+
+2. **Install dependencies**:
+   ```bash
+   poetry install
+   ```
+   This will create a virtual environment (if one does not exist) and install all dependencies as specified in `pyproject.toml` and `poetry.lock`.
+
+3. **Activate the virtual environment** (optional, for direct shell access):
+   ```bash
+   poetry shell
+   ```
+   Or, run commands with `poetry run <command>` (e.g., `poetry run python script.py`).
+
+4. **Updating dependencies**:
+   To update all dependencies to the latest allowed versions:
+   ```bash
+   poetry update
+   ```
+
 ## VS Code Support
 
 This project includes configuration for Visual Studio Code to enhance your development experience:

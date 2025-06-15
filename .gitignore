@@ -23,6 +23,9 @@ build/
 # Poetry
 poetry.lock
 
+# Idea
+.idea/
+
 # Environment
 .env
 .venv/
